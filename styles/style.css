@@ -128,12 +128,22 @@ body{
     .cabecalho__menu{
         justify-content: center;
     }
-    .apresentacao{
-        flex-direction: column-reverse;
-        padding: 5%;
+    .apresentacao {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
     }
+
     .apresentacao__conteudo{
         width: auto;
-        height: 100vh;
+        height: auto;
     }
+}
+
+.certificados img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
 }
